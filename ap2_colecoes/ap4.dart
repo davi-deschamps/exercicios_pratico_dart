@@ -8,7 +8,7 @@ void main() {
     'MG': ['Belo Horizonte', 'Juiz de Fora', 'Berlinda'],
   };
 
-  // lista de siglas dos estados usando .keys 
+  // lista de siglas dos estados usando .keys
   // e .join(' ; ') costura essas siglas em um único texto contínuo.
   print('Estados: ${estados.keys.join(' ; ')}');
 
@@ -41,7 +41,7 @@ void main() {
   // Ordenar em ordem alfabética utilizando o .sort novamnete para organizar
   cidadesComSigla.sort();
 
-  // imprimindo 
+  // imprimindo
   for (var item in cidadesComSigla) {
     print(item);
   }
